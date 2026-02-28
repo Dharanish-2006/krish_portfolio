@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# IBDS — Integrated Business & Digital Services Portfolio
+
+A modern, luxury-dark portfolio website built with **Next.js 14**, **TypeScript**, and **Tailwind CSS**.
+
+## Pages
+- `/` — Home (Hero, Services preview, Why Us, CTA)
+- `/about` — About Us (Mission, Values, Business Profile)
+- `/services` — Core Services (5 detailed service sections)
+- `/contact` — Contact Us (Enquiry form, Company info, FAQ)
+
+## Design
+- **Aesthetic**: Refined luxury dark — obsidian black + warm gold
+- **Typography**: Cormorant Garamond (display) + DM Sans (body) + DM Mono (accents)
+- **Fully responsive**: Mobile-first layout
 
 ## Getting Started
 
-First, run the development server:
-
+### 1. Install dependencies
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Run development server
+```bash
+npm run dev
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Open [http://localhost:3000](http://localhost:3000)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 3. Build for production
+```bash
+npm run build
+npm start
+```
 
-## Learn More
+## Customization
 
-To learn more about Next.js, take a look at the following resources:
+### Colors (tailwind.config.ts)
+- `gold` / `gold-light` / `gold-dark` — brand accent colors
+- `obsidian` / `carbon` / `graphite` — background tones
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Content
+All content is in the page files under `/app`:
+- `/app/page.tsx` — Home
+- `/app/about/page.tsx` — About
+- `/app/services/page.tsx` — Services
+- `/app/contact/page.tsx` — Contact
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Fonts
+Google Fonts loaded via `app/globals.css`. Change the `@import` URL to swap fonts.
 
-## Deploy on Vercel
+## Deployment
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Deploy instantly on **Vercel**:
+1. Push to GitHub
+2. Import to [vercel.com](https://vercel.com)
+3. Deploy
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Or deploy on **Netlify**, **Railway**, or any Node.js host.
+
+---
+© 2026 Integrated Business & Digital Services
