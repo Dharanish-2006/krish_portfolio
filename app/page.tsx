@@ -238,7 +238,7 @@ export default function Home() {
                 style={{ fontFamily: "'Cormorant Garamond', serif" }}
               >
                 The{" "}
-                <em className="gold-text not-italic font-medium">IBDS</em>{" "}
+                <em className="gold-text not-italic font-medium">PMS</em>{" "}
                 Difference
               </h2>
               <p className="text-mist leading-relaxed mb-10">
@@ -300,7 +300,7 @@ export default function Home() {
             Your Business
           </h2>
           <p className="text-mist mb-10 max-w-xl mx-auto leading-relaxed">
-            Partner with IBDS and gain access to a complete suite of professional services 
+            Partner with PMS and gain access to a complete suite of professional services 
             designed to streamline, strengthen, and scale your operations.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

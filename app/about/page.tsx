@@ -60,7 +60,7 @@ export default function About() {
               >
                 About
                 <br />
-                <em className="gold-text not-italic font-medium">IBDS</em>
+                <em className="gold-text not-italic font-medium">PMS</em>
               </h1>
             </div>
             <div className="pt-4">
@@ -103,7 +103,7 @@ export default function About() {
 
             <div className="lg:col-span-2">
               <p className="text-silver text-lg leading-relaxed mb-10">
-                IBDS was born from the recognition that businesses — especially emerging ones — 
+                PMS was born from the recognition that businesses — especially emerging ones — 
                 are often overwhelmed by the complexity of managing multiple service providers. 
                 We set out to change that by becoming a single, trusted partner across all 
                 operational domains.
@@ -211,7 +211,7 @@ export default function About() {
                 <em className="gold-text not-italic font-medium">Every Solution</em>
               </h2>
               <p className="text-mist leading-relaxed mb-6">
-                Rather than working with multiple fragmented service providers, IBDS gives you 
+                Rather than working with multiple fragmented service providers, PMS gives you 
                 access to a unified platform where all your business support needs are handled 
                 by a single, accountable team.
               </p>
@@ -237,7 +237,7 @@ export default function About() {
             <em className="gold-text not-italic font-medium">Together?</em>
           </h2>
           <p className="text-mist mb-10">
-            Let&apos;s discuss how IBDS can support your business goals.
+            Let&apos;s discuss how PMS can support your business goals.
           </p>
           <Link href="/contact" className="btn-gold">
             <span>Contact Us Today</span>

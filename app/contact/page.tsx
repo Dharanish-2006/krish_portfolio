@@ -141,7 +141,7 @@ export default function Contact() {
                     className="text-gold text-xs tracking-widest"
                     style={{ fontFamily: "'DM Mono', monospace" }}
                   >
-                    IBDS TEAM
+                    PMS TEAM
                   </span>
                 </div>
               </div>
@@ -310,7 +310,7 @@ export default function Contact() {
           <div className="divide-y divide-white/5">
             {[
               {
-                q: "How quickly can IBDS start working with me?",
+                q: "How quickly can PMS start working with me?",
                 a: "Once we receive your inquiry and complete an initial consultation, most engagements begin within 2–5 business days, depending on the service scope.",
               },
               {

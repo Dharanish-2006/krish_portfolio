@@ -4,7 +4,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "IBDS — Integrated Business & Digital Services",
+  title: "PMS — Integrated Business & Digital Services",
   description:
     "Professionally managed online service platform delivering integrated business, digital, financial, and administrative solutions under one roof.",
 };
