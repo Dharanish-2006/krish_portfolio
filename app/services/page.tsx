@@ -75,7 +75,7 @@ const services = [
     offerings: [
       "Documentation assistance",
       "Back-office support services",
-      "Online form processing",
+      "Udayam Registration Proccess",
       "Structured administrative coordination",
       "Email & correspondence management",
       "Record keeping & filing",

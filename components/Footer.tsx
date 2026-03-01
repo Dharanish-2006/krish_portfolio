@@ -8,11 +8,11 @@ export default function Footer() {
           <div>
             <div className="flex items-center gap-3 mb-6">
               <div className="w-9 h-9 border border-gold/60 flex items-center justify-center">
-                <span className="gold-text font-display text-lg font-semibold" style={{ fontFamily: "'Cormorant Garamond', serif" }}>IB</span>
+                <span className="gold-text font-display text-lg font-semibold" style={{ fontFamily: "'Cormorant Garamond', serif" }}>PMS</span>
               </div>
               <div>
-                <p className="text-pearl text-sm font-medium leading-tight">Integrated Business</p>
-                <p className="text-mist text-xs tracking-widest uppercase" style={{ fontFamily: "'DM Mono', monospace" }}>& Digital Services</p>
+                <p className="text-pearl text-sm font-medium leading-tight">PMS</p>
+                <p className="text-mist text-xs tracking-widest uppercase" style={{ fontFamily: "'DM Mono', monospace" }}>Global Elites</p>
               </div>
             </div>
             <p className="text-mist text-sm leading-relaxed max-w-xs">
@@ -20,7 +20,7 @@ export default function Footer() {
             </p>
             <div className="mt-6 flex items-center gap-2">
               <div className="w-1.5 h-1.5 rounded-full bg-gold animate-pulse" />
-              <span className="text-xs text-mist" style={{ fontFamily: "'DM Mono', monospace" }}>Est. 19 January 2026 · Udyam Registered</span>
+              <span className="text-xs text-mist" style={{ fontFamily: "'DM Mono', monospace" }}>Est. 19 January 2026</span>
             </div>
           </div>
           <div>
@@ -65,7 +65,7 @@ export default function Footer() {
 
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-smoke text-xs" style={{ fontFamily: "'DM Mono', monospace" }}>
-            © 2026 Integrated Business & Digital Services. All Rights Reserved.
+            © 2026 PMS Global Elites Services. All Rights Reserved.
           </p>
           <p className="text-smoke text-xs" style={{ fontFamily: "'DM Mono', monospace" }}>
             Registered under Udyam · India

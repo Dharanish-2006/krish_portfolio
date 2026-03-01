@@ -4,7 +4,6 @@ const stats = [
   { value: "5+", label: "Core Services" },
   { value: "100%", label: "Digital First" },
   { value: "2026", label: "Established" },
-  { value: "Udyam", label: "Registered" },
 ];
 
 const services = [
@@ -96,10 +95,10 @@ export default function Home() {
             className="font-display text-6xl sm:text-7xl lg:text-9xl font-light leading-none mb-6"
             style={{ fontFamily: "'Cormorant Garamond', serif" }}
           >
-            <span className="block text-pearl">Integrated</span>
-            <span className="block gold-shimmer font-medium italic">Business</span>
-            <span className="block text-pearl">& Digital</span>
-            <span className="block text-silver/60 font-light">Services</span>
+            <span className="block text-pearl">PMS</span>
+            <span className="block gold-shimmer font-medium italic">Global ELites</span>
+            {/* <span className="block text-pearl">& Digital</span>
+            <span className="block text-silver/60 font-light">Services</span> */}
           </h1>
           <p className="text-mist text-lg sm:text-xl max-w-2xl mx-auto leading-relaxed mb-12 mt-8">
             Simplifying Business. Digitally. Professionally. Reliably.
@@ -113,7 +112,7 @@ export default function Home() {
               Get in Touch
             </Link>
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-px mt-24 border border-white/5">
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-px mt-24 border border-white/5">
             {stats.map((stat) => (
               <div
                 key={stat.label}

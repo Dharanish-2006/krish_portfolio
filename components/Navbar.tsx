@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 
 const navLinks = [
@@ -31,30 +32,19 @@ export default function Navbar() {
       }`}
     >
       <nav className="max-w-7xl mx-auto px-6 lg:px-12 flex items-center justify-between h-20">
-        <Link href="/" className="flex items-center gap-3 group">
-          <div className="w-9 h-9 border border-gold/60 flex items-center justify-center group-hover:border-gold transition-colors duration-300">
-            <span
-              className="gold-text font-display text-lg font-semibold leading-none"
-              style={{ fontFamily: "'Cormorant Garamond', serif" }}
-            >
-              IB
-            </span>
-          </div>
-          <div className="hidden sm:block">
-            <p
-              className="text-pearl text-sm font-medium leading-tight tracking-wide"
-              style={{ fontFamily: "'DM Sans', sans-serif" }}
-            >
-              Integrated Business
-            </p>
-            <p
-              className="text-mist text-xs tracking-widest uppercase"
-              style={{ fontFamily: "'DM Mono', monospace" }}
-            >
-              & Digital Services
-            </p>
+
+        <Link href="/" className="flex items-center group">
+          <div className="relative h-12 w-36">
+            <Image
+              src="/image.png"
+              alt="PMS Global Elites"
+              fill
+              className="object-contain object-left"
+              priority
+            />
           </div>
         </Link>
+
         <ul className="hidden md:flex items-center gap-10">
           {navLinks.map((link) => (
             <li key={link.href}>
@@ -75,31 +65,22 @@ export default function Navbar() {
             </li>
           ))}
         </ul>
+
         <Link href="/contact" className="hidden md:block btn-gold text-xs">
           <span>Get Started</span>
         </Link>
+
         <button
           className="md:hidden flex flex-col gap-1.5 p-2"
           onClick={() => setMenuOpen(!menuOpen)}
           aria-label="Toggle menu"
         >
-          <span
-            className={`block w-6 h-px bg-pearl transition-all duration-300 ${
-              menuOpen ? "rotate-45 translate-y-2" : ""
-            }`}
-          />
-          <span
-            className={`block w-4 h-px bg-gold transition-all duration-300 ${
-              menuOpen ? "opacity-0" : ""
-            }`}
-          />
-          <span
-            className={`block w-6 h-px bg-pearl transition-all duration-300 ${
-              menuOpen ? "-rotate-45 -translate-y-2" : ""
-            }`}
-          />
+          <span className={`block w-6 h-px bg-pearl transition-all duration-300 ${menuOpen ? "rotate-45 translate-y-2" : ""}`} />
+          <span className={`block w-4 h-px bg-gold transition-all duration-300 ${menuOpen ? "opacity-0" : ""}`} />
+          <span className={`block w-6 h-px bg-pearl transition-all duration-300 ${menuOpen ? "-rotate-45 -translate-y-2" : ""}`} />
         </button>
       </nav>
+
       <div
         className={`md:hidden transition-all duration-500 overflow-hidden ${
           menuOpen ? "max-h-80 opacity-100" : "max-h-0 opacity-0"
